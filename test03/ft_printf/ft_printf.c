@@ -15,7 +15,7 @@
 
 void	putstr(char *str, int *size)
 {
-	if (!str)
+	if (!str)  
 		str = "(null)";
 	while (*str)
 	{
